@@ -17,5 +17,17 @@ Untrack Files In Git Repos Without Deleting Them
     git pull
 
     git push
+    
+Merge changes from other to master
+     
+    #change branch
+    git checkout -b bioinformatics-gao-patch-1 master
+    git pull https://github.com/bioinformatics-gao/PathwaySplice.git patch-1    
+    
+    #Change back to master
+    git checkout master    
+    git merge --no-ff bioinformatics-gao-patch-1
+    git push origin master
 
+Others
 http://www.interviewadda.com/shortest-path-nodes-binary-search-tree-bst/
