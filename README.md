@@ -19,7 +19,13 @@ Untrack Files In Git Repos Without Deleting Them
     git push
     
 Merge changes from other to master
+    
+    #set new branch and change to this new branch
+    git checkout -b new-branch
      
+    #merge the changes in new-branch to master 
+    git merge --no-off new-branch
+ 
     #change branch
     git checkout -b bioinformatics-gao-patch-1 master
     git pull https://github.com/bioinformatics-gao/PathwaySplice.git patch-1    
