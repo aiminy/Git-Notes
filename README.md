@@ -36,8 +36,6 @@ http://www.interviewadda.com/shortest-path-nodes-binary-search-tree-bst/
 
 #Rename a local and remote branch in git
 
-#If you have named a branch incorrectly AND pushed this to the remote repository follow these steps before any other developers get a chance to jump on you and give you shit for not correctly following naming conventions.
-
 1. Rename your local branch.
 If you are on the branch you want to rename:
 
