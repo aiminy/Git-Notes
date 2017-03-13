@@ -59,11 +59,11 @@ Switch to the branch and then:
 
 git push origin -u new-name
 
-#install 
+#install from the release version of ChipSeq 
 
 install_github("aiminy/ChipSeq")
 
-#install from different branch
+#install from different branch or version of ChipSeq
 
 install_github("aiminy/ChipSeq",ref = '0.99.0')
 
