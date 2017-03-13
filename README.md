@@ -58,3 +58,12 @@ git push origin :old-name new-name
 Switch to the branch and then:
 
 git push origin -u new-name
+
+#install 
+
+install_github("aiminy/ChipSeq")
+
+#install from different branch
+
+install_github("aiminy/ChipSeq",ref = '0.99.0')
+
