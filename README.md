@@ -24,9 +24,8 @@ Merge changes from other to master
     git checkout -b new-branch
      
     #merge the changes in new-branch to master 
-    git merge --no-off new-branch
- 
-    #change branch
+    git merge --no-ff new-branch
+
     git checkout -b bioinformatics-gao-patch-1 master
     git pull https://github.com/bioinformatics-gao/PathwaySplice.git patch-1    
     
