@@ -53,6 +53,7 @@ git branch -m old-name new-name
 2. Delete the old-name remote branch and push the new-name local branch.
 
 git push origin :old-name new-name
+
 3. Reset the upstream branch for the new-name local branch.
 Switch to the branch and then:
 
