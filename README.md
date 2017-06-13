@@ -67,3 +67,10 @@ install_github("aiminy/ChipSeq")
 
 install_github("aiminy/ChipSeq",ref = '0.99.0')
 
+# Search a word(Ex:getResultsFromJunctionSeq) in the history of git
+
+git rev-list --all | GIT_PAGER=cat xargs git grep 'getResultsFromJunctionSeq'
+
+then
+
+git show 49892c3cd0b2e3f0bbd9af3f4f537e01e6836cb4
