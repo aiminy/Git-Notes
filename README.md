@@ -1,4 +1,4 @@
-# Use-Git
+# Some notes about using Git
 
 Untrack Files In Git Repos Without Deleting Them
 
@@ -38,14 +38,14 @@ Others
 http://www.interviewadda.com/shortest-path-nodes-binary-search-tree-bst/
 
 
-# Rename a local and remote branch in git
+## Rename a local and remote branch in git
 
 1. Rename your local branch.
 If you are on the branch you want to rename:
 
 git branch -m new-name
 
-# If you are on a different branch:
+## If you are on a different branch:
 
 git branch -m old-name new-name
 
@@ -58,15 +58,15 @@ Switch to the branch and then:
 
 git push origin -u new-name
 
-# install from the release version of ChipSeq 
+## install from the release version of ChipSeq 
 
 install_github("aiminy/ChipSeq")
 
-#install from different branch or version of ChipSeq
+## install from different branch or version of ChipSeq
 
 install_github("aiminy/ChipSeq",ref = '0.99.0')
 
-# Search a word(Ex:getResultsFromJunctionSeq) in the history of git
+## Search a word(Ex:getResultsFromJunctionSeq) in the history of git
 
 git rev-list --all | GIT_PAGER=cat xargs git grep 'getResultsFromJunctionSeq'
 
@@ -74,7 +74,7 @@ then
 
 git show 49892c3cd0b2e3f0bbd9af3f4f537e01e6836cb4
 
-# To deal with the following error
+## To deal with the following error
 
 "Permission denied (publickey).
 fatal: Could not read from remote repository.
@@ -87,6 +87,3 @@ ssh-keygen -t rsa -C "aimin.at.work@gmail.com" -b 4096
 pbcopy < ~/.ssh/id_rsa.pub
 
 Paste in user setting/SSH keys
-
-
-
