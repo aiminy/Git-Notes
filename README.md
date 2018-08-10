@@ -7,6 +7,10 @@ Untrack Files In Git Repos Without Deleting Them
     echo "FILE_NAME" >> .gitignore
 
     git rm --cached FILE_NAME
+    
+    or git rm -r --cached folderName
+    
+    For examples: git rm -r --cached .Rproj.user
 
     git add -u
 
